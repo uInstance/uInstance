@@ -1,0 +1,28 @@
+{
+  "name": "uinstance",
+  "version": "1.0.0",
+  "description": "A instance manager for ts3, discord and so many other",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uInstance/uInstance.git"
+  },
+  "author": "UTrosh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/uInstance/uInstance/issues"
+  },
+  "homepage": "https://github.com/uInstance/uInstance#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.2",
+    "js-yaml": "^4.1.0",
+    "open": "^9.1.0",
+    "read-package-json": "^6.0.1",
+    "terminal-kit": "^3.0.0"
+  }
+}
