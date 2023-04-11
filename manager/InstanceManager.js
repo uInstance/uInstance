@@ -27,7 +27,7 @@ async function createInstance(templateName, name) {
   const { modules, main } = await readConfig(templateName);
   if (modules.length > 0) {
     logs.logs(`Installation des modules pour l'instance ${instanceId}...`, 'info');
-    const npmInstall = spawn("npm ", ['install', '--prefix', instanceDir].concat(modules));
+    const npmInstall = spawn("/usr/local/bin/npm ", ['install', '--prefix', instanceDir].concat(modules));
     npmInstall.stdout.on('data', data => {
       console.log(`[Instance ${instanceId}] ${data}`);
     });
